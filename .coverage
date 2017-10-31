@@ -1,9 +1,1 @@
-language: python
-python:
-  - "3.5"
-install:
-  - pip install python-coverage
-script:
-  - make test 
-after_success:
-  - coveralls
+!coverage.py: This is a private format, don't read it directly!{"lines": {"/mnt/c/Users/pkash/Documents/c4cs/unittest/rpn.py": [2, 27, 4, 5, 6, 7, 9, 23], "/mnt/c/Users/pkash/Documents/c4cs/unittest/test_rpn.py": [1, 2, 6, 7, 10, 13]}}
