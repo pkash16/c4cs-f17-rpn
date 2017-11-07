@@ -8,5 +8,6 @@ install:
 script:
   - make test 
   - nosetests --with-coverage
+  - coverage run test_rpn.py test
 after_success:
   - coveralls
